@@ -5,7 +5,7 @@ $index = rand(1, 10);
 $name = "VALUE{$index}";
 
 // Определяем константу с динамическим именем
-define($name, 1);
+define($name, $index);
 
 // Получаем значение константы
 echo constant($name);
