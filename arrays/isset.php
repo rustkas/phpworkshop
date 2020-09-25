@@ -1,10 +1,8 @@
 <?php
-$arr = [5 => 1, 2, 3];
-
 for ($i = 0; $i < 10; $i++) {
     if (isset($arr[$i])) {
-        echo "Элемент \$arr[$i] существует<br />";
+        echo "<div style='background-color:lightgreen'>Элемент \$arr[$i] существует</div><br />";
     } else {
-        echo "Элемент \$arr[$i] не существует<br />";
+        echo "<div style='background-color:red'>Элемент \$arr[$i] не существует</div><br />";
     }
 }
