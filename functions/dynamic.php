@@ -13,4 +13,4 @@ function bye()
 $var = rand(0, 1) ? 'hello' : 'bye';
 
 // Вызов функции
-$var();
+echo $var();
